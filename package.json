@@ -1,0 +1,18 @@
+{
+  "name": "n8n-job-automation",
+  "version": "1.0.0",
+  "description": "Automated job application system with n8n",
+  "scripts": {
+    "start": "n8n start",
+    "build": "npm install"
+  },
+  "dependencies": {
+    "n8n": "^1.19.0"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "keywords": ["n8n", "automation", "jobs"],
+  "author": "Your Name",
+  "license": "MIT"
+}
