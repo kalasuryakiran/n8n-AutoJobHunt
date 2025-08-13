@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "description": "Automated job application system with n8n",
   "scripts": {
-    "start": "n8n start",
+    "start": "n8n start --host=0.0.0.0 --port=$PORT",
     "build": "npm install"
   },
   "dependencies": {
     "n8n": "^1.19.0"
   },
   "engines": {
-    "node": "18.x"
+    "node": ">=20.0.0"
   },
   "keywords": ["n8n", "automation", "jobs"],
   "author": "Your Name",
